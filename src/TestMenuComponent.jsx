@@ -1,7 +1,3 @@
-import MailIcon from "@material-ui/icons/Mail";
-import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
-import MapIcon from "@material-ui/icons/Map";
-import InfoIcon from "@material-ui/icons/Info";
 import logo03 from "./assets/startbutton02.png";
 import logo04 from "./assets/StopButton.png";
 
@@ -23,7 +19,7 @@ export const TestMenuComponent = (props) => {
       startAngle={-45} /* position objets */
       rotationAngle={360} /*effet de rotation */
       itemSize={1} /* taille objets */
-      radius={6} /* rayons */
+      radius={8} /* rayons */
       /**
        * rotationAngleInclusive (default true)
        * Whether to include the ending angle in rotation because an
