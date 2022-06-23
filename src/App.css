@@ -6,7 +6,11 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.myRadial{
+  position: relative;
+  left:-32px;
+  top:3px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
